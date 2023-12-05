@@ -189,6 +189,21 @@
       "type": "component",
       "repeatable": false,
       "component": "how-we-work.how-we-work"
+    },
+    "ourExpertise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-expertise.our-expertise"
+    },
+    "why_choose_coditas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-choose-coditas.why-choose-coditas"
+    },
+    "ourClients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-clients.our-clients"
     }
   }
 }

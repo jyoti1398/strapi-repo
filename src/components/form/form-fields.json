@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "idValue": {
-      "type": "string"
-    },
     "numberOfColumns": {
       "type": "string"
     },
@@ -32,6 +29,9 @@
       "type": "biginteger",
       "max": "1000",
       "default": "1000"
+    },
+    "options": {
+      "type": "json"
     }
   }
 }
