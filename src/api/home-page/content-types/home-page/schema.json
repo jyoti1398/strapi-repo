@@ -67,12 +67,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "serviceBtnText": {
       "type": "string"
@@ -194,6 +189,21 @@
       "type": "component",
       "repeatable": false,
       "component": "we-are-certified.we-are-certified"
+    },
+    "ourExpertise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-expertise.our-expertise"
+    },
+    "why_choose_coditas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-choose-coditas.why-choose-coditas"
+    },
+    "ourClients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-clients.our-clients"
     }
   }
 }

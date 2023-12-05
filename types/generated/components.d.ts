@@ -111,7 +111,6 @@ export interface FormFormFields extends Schema.Component {
     description: '';
   };
   attributes: {
-    idValue: Attribute.String;
     numberOfColumns: Attribute.String;
     type: Attribute.String;
     label: Attribute.String;
@@ -123,6 +122,7 @@ export interface FormFormFields extends Schema.Component {
         max: '1000';
       }> &
       Attribute.DefaultTo<'1000'>;
+    options: Attribute.JSON;
   };
 }
 
@@ -133,12 +133,12 @@ export interface FormSideForm extends Schema.Component {
     description: '';
   };
   attributes: {
-    formSideImage: Attribute.String;
     formTitle: Attribute.String;
     formDesc: Attribute.String;
     formContents: Attribute.JSON;
     formFields: Attribute.JSON;
     formFieldData: Attribute.Component<'form.form-fields', true>;
+    formSideImage: Attribute.Media;
   };
 }
 
@@ -233,7 +233,7 @@ export interface HowWeWorkHowWeWorkCards extends Schema.Component {
   attributes: {
     title: Attribute.String;
     description: Attribute.Text;
-    logo: Attribute.String;
+    logo: Attribute.Media;
   };
 }
 
@@ -312,7 +312,7 @@ export interface OurClientsOurClientsImages extends Schema.Component {
   attributes: {
     idValue: Attribute.String;
     customLogoClass: Attribute.String;
-    imageSrc: Attribute.String;
+    imageSrc: Attribute.Media;
   };
 }
 
@@ -338,7 +338,7 @@ export interface OurExpertiseOurExpertiseImagesList extends Schema.Component {
     description: '';
   };
   attributes: {
-    img: Attribute.String;
+    img: Attribute.Media;
   };
 }
 
