@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_form_form_fields",
+  "info": {
+    "displayName": "formFields",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idValue": {
+      "type": "string"
+    },
+    "numberOfColumns": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": true
+    },
+    "maxLength": {
+      "type": "biginteger",
+      "max": "1000",
+      "default": "1000"
+    }
+  }
+}

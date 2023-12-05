@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subRouteName": {
+      "type": "string"
+    },
+    "subRouteLink": {
+      "type": "string"
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

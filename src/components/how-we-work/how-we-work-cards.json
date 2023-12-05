@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_how_we_work_how_we_work_cards",
+  "info": {
+    "displayName": "howWeWorkCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "string"
+    }
+  }
+}

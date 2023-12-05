@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_our_office_our_offices",
+  "info": {
+    "displayName": "ourOffice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "ourOffice": {
+      "displayName": "ourOfficeAddress",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-office.our-office-address"
+    },
+    "map": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

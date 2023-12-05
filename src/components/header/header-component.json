@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_header_components",
+  "info": {
+    "displayName": "linkComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "routeName": {
+      "type": "string"
+    },
+    "routeLink": {
+      "type": "string"
+    },
+    "subRoutes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.header"
+    }
+  }
+}

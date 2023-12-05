@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hiring_now_hiring_now_cards",
+  "info": {
+    "displayName": "hiringNowCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    }
+  }
+}

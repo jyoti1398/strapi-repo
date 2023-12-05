@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_open_positions_open_positions",
+  "info": {
+    "displayName": "openPositions"
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "openPositionsList": {
+      "displayName": "openPositionList",
+      "type": "component",
+      "repeatable": true,
+      "component": "open-positions.open-position-list"
+    }
+  }
+}

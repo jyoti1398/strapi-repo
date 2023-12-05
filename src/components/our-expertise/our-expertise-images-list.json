@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_our_expertise_our_expertise_images_lists",
+  "info": {
+    "displayName": "ourExpertiseImagesList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "string"
+    }
+  }
+}

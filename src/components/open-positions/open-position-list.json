@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_open_positions_open_position_lists",
+  "info": {
+    "displayName": "openPositionList"
+  },
+  "options": {},
+  "attributes": {
+    "idValue": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "redirectTo": {
+      "type": "string"
+    }
+  }
+}

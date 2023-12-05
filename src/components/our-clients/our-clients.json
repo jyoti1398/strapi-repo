@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_our_clients_our_clients",
+  "info": {
+    "displayName": "ourClients",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "ourClientsImagesList": {
+      "displayName": "ourClientsImages",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-clients.our-clients-images"
+    }
+  }
+}

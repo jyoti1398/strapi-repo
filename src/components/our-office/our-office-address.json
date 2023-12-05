@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_our_office_our_office_addresses",
+  "info": {
+    "displayName": "ourOfficeAddress",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "addresses": {
+      "type": "json"
+    },
+    "flagIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

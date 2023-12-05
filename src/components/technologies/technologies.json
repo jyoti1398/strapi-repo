@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_technologies_technologies",
+  "info": {
+    "displayName": "technologies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "technologyImages": {
+      "displayName": "technologyImages",
+      "type": "component",
+      "repeatable": false,
+      "component": "technologies.technology-images"
+    }
+  }
+}

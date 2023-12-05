@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meta_infos",
+  "info": {
+    "singularName": "meta-info",
+    "pluralName": "meta-infos",
+    "displayName": "metaInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "route": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primary_key": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

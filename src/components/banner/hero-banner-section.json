@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_banner_hero_banner_sections",
+  "info": {
+    "displayName": "heroBannerSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerSubText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "bannerImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonSvgImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_why_join_coditas_why_join_coditas",
+  "info": {
+    "displayName": "Why-Join-Coditas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "whyJoinCoditasCards": {
+      "displayName": "whyJoinCoditasCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-join-coditas.why-join-coditas-cards"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_coditas_in_media_coditas_in_medias",
+  "info": {
+    "displayName": "Coditas-in-Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "coditasInMediaCards": {
+      "displayName": "coditasInMediaCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "coditas-in-media.coditas-in-media-cards"
+    }
+  }
+}

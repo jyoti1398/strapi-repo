@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_our_service_cards_modal_data",
+  "info": {
+    "displayName": "modalData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "descList": {
+      "type": "json"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

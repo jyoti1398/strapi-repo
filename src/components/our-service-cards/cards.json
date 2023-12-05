@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_our_service_cards_cards",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "modalData": {
+      "displayName": "modalData",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-service-cards.modal-data"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

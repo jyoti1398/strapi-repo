@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_how_we_work_how_we_works",
+  "info": {
+    "displayName": "howWeWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "howWeWorkCards": {
+      "displayName": "howWeWorkCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "how-we-work.how-we-work-cards"
+    }
+  }
+}

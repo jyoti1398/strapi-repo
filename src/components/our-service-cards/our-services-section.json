@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_our_service_cards_our_services_sections",
+  "info": {
+    "displayName": "ourServicesSection"
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "serviceCards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-service-cards.cards"
+    },
+    "cardBtnText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_testimony_testimonies",
+  "info": {
+    "displayName": "testimony",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "testimonies": {
+      "displayName": "testimonyData",
+      "type": "component",
+      "repeatable": true,
+      "component": "testimony.testimony-data"
+    }
+  }
+}

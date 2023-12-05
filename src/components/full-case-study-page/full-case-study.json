@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_full_case_study_page_full_case_studies",
+  "info": {
+    "displayName": "fullCaseStudy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overview": {
+      "type": "string"
+    },
+    "overviewDescription": {
+      "type": "string"
+    },
+    "businessChallenge": {
+      "type": "string"
+    },
+    "businessDescriptionArray": {
+      "type": "json"
+    },
+    "businessDescription": {
+      "type": "text"
+    },
+    "ourSolution": {
+      "type": "string"
+    },
+    "ourSolutionDescription": {
+      "type": "text"
+    },
+    "ourSolutionArray": {
+      "type": "json"
+    },
+    "technologies": {
+      "type": "string"
+    },
+    "technologyList": {
+      "type": "json"
+    },
+    "showBusinessDescriptionBackground": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

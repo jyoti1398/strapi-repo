@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_testimony_testimony_data",
+  "info": {
+    "displayName": "testimonyData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "testimony": {
+      "type": "text"
+    },
+    "profileImg": {
+      "type": "string"
+    }
+  }
+}

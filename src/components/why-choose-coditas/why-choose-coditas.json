@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_why_choose_coditas_why_choose_coditas",
+  "info": {
+    "displayName": "whyChooseCoditas"
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "whyChooseCoditasCards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-coditas.cards"
+    }
+  }
+}

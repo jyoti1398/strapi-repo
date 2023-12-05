@@ -1,0 +1,179 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle1": {
+      "type": "string"
+    },
+    "sectionTitle2": {
+      "type": "string"
+    },
+    "sectionTitle3": {
+      "type": "string"
+    },
+    "sectionTitle4": {
+      "type": "string"
+    },
+    "sectionTitle5": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "string"
+    },
+    "description3": {
+      "type": "string"
+    },
+    "description4": {
+      "type": "string"
+    },
+    "description5": {
+      "type": "string"
+    },
+    "imagesSection1": {
+      "type": "json"
+    },
+    "ourServicesCards": {
+      "type": "json"
+    },
+    "ourWorkCards": {
+      "type": "json"
+    },
+    "technologyImages": {
+      "type": "json"
+    },
+    "hiringNowCards": {
+      "type": "json"
+    },
+    "sectionTitle6": {
+      "type": "string"
+    },
+    "officeLocations": {
+      "type": "json"
+    },
+    "map": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "serviceBtnText": {
+      "type": "string"
+    },
+    "caseStudyBtnText": {
+      "type": "string"
+    },
+    "cardBtnText": {
+      "type": "string"
+    },
+    "viewMoreBtnText": {
+      "type": "string"
+    },
+    "viewLessBtnText": {
+      "type": "string"
+    },
+    "primary_key": {
+      "type": "uid"
+    },
+    "testimony": {
+      "type": "json"
+    },
+    "formContents": {
+      "type": "json"
+    },
+    "whyChooseCoditas": {
+      "type": "json"
+    },
+    "cardArray1": {
+      "type": "json"
+    },
+    "cardArray2": {
+      "type": "json"
+    },
+    "cardArray3": {
+      "type": "json"
+    },
+    "sectionTitle7": {
+      "type": "string"
+    },
+    "description6": {
+      "type": "string"
+    },
+    "description7": {
+      "type": "string"
+    },
+    "sectionTitle8": {
+      "type": "string"
+    },
+    "description8": {
+      "type": "string"
+    },
+    "sideFormImage": {
+      "type": "string"
+    },
+    "jobDescriptionData": {
+      "type": "json"
+    },
+    "routes": {
+      "type": "json"
+    },
+    "commonSvgs": {
+      "type": "json"
+    },
+    "mappedSvgs": {
+      "type": "json"
+    },
+    "heroBannerSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.hero-banner-section"
+    },
+    "ourServicesCardsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-service-cards.our-services-section"
+    },
+    "digitallyTransformedSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "digitally-transformed.digitally-transformed"
+    },
+    "technologyImageSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "technologies.technologies"
+    },
+    "hiringNowSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hiring-now.hiring-now"
+    },
+    "ourOfficeSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-office.our-office"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.side-form"
+    }
+  }
+}

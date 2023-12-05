@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_our_expertise_our_expertises",
+  "info": {
+    "displayName": "ourExpertise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "ourExpertiseImages": {
+      "displayName": "ourExpertiseImagesList",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-expertise.our-expertise-images-list"
+    }
+  }
+}

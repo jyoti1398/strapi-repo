@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_our_clients_our_clients_images",
+  "info": {
+    "displayName": "ourClientsImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idValue": {
+      "type": "string"
+    },
+    "customLogoClass": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string"
+    }
+  }
+}

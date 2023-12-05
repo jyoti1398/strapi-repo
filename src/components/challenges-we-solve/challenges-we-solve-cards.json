@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_challenges_we_solve_challenges_we_solve_cards",
+  "info": {
+    "displayName": "challengesWeSolveCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "string"
+    }
+  }
+}

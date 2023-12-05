@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_coditas_in_media_coditas_in_media_cards",
+  "info": {
+    "displayName": "coditasInMediaCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idValue": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "isExternalLink": {
+      "type": "boolean",
+      "default": true
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

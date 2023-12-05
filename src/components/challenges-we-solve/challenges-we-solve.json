@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_challenges_we_solve_challenges_we_solves",
+  "info": {
+    "displayName": "challengesWeSolve",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "challengesWeSolveCards": {
+      "displayName": "challengesWeSolveCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "challenges-we-solve.challenges-we-solve-cards"
+    }
+  }
+}

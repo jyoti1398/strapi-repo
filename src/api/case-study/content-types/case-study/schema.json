@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "case_study",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_id": {
+      "type": "string"
+    },
+    "serviceName": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "bannerImg": {
+      "type": "string"
+    },
+    "bannerSideImg": {
+      "type": "string"
+    },
+    "outcomeImg": {
+      "type": "string"
+    },
+    "outcomeImgMobile": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "outcomeHeading": {
+      "type": "string"
+    },
+    "outcomeSubText": {
+      "type": "text"
+    },
+    "outcomeArray": {
+      "type": "json"
+    },
+    "bannerTitle": {
+      "type": "string"
+    },
+    "caseStudyDecsriptiveSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "full-case-study-page.full-case-study"
+    },
+    "moreCaseStudyTitle": {
+      "type": "string"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.side-form"
+    },
+    "readMoreBtnText": {
+      "type": "string"
+    },
+    "breadcrumbs": {
+      "type": "json"
+    },
+    "pills": {
+      "type": "json"
+    },
+    "primary_key": {
+      "type": "string"
+    },
+    "commonSvgs": {
+      "type": "json"
+    },
+    "mappedSvgs": {
+      "type": "json"
+    }
+  }
+}
