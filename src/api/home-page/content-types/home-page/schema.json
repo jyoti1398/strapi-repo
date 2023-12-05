@@ -189,6 +189,11 @@
       "type": "component",
       "repeatable": false,
       "component": "how-we-work.how-we-work"
+    },
+    "weAreCertified": {
+      "type": "component",
+      "repeatable": false,
+      "component": "we-are-certified.we-are-certified"
     }
   }
 }

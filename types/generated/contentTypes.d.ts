@@ -516,6 +516,7 @@ export interface ApiHomePageHomePage extends Schema.CollectionType {
     leaderShipSection: Attribute.Component<'leadership.leadership-section'>;
     whoAreWe: Attribute.Component<'who-are-we.who-are-we'>;
     howWeWork: Attribute.Component<'how-we-work.how-we-work'>;
+    weAreCertified: Attribute.Component<'we-are-certified.we-are-certified'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

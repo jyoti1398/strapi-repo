@@ -485,6 +485,30 @@ export interface TestimonyTestimony extends Schema.Component {
   };
 }
 
+export interface WeAreCertifiedWeAreCertifiedImages extends Schema.Component {
+  collectionName: 'components_we_are_certified_we_are_certified_images';
+  info: {
+    displayName: 'weAreCertifiedImages';
+  };
+  attributes: {
+    src: Attribute.Media;
+  };
+}
+
+export interface WeAreCertifiedWeAreCertified extends Schema.Component {
+  collectionName: 'components_we_are_certified_we_are_certifieds';
+  info: {
+    displayName: 'weAreCertified';
+  };
+  attributes: {
+    headerDetails: Attribute.Component<'heading.section-heading'>;
+    images: Attribute.Component<
+      'we-are-certified.we-are-certified-images',
+      true
+    >;
+  };
+}
+
 export interface WhoAreWeWhoAreWeCards extends Schema.Component {
   collectionName: 'components_who_are_we_who_are_we_cards';
   info: {
@@ -602,6 +626,8 @@ declare module '@strapi/types' {
       'technologies.technology-images': TechnologiesTechnologyImages;
       'testimony.testimony-data': TestimonyTestimonyData;
       'testimony.testimony': TestimonyTestimony;
+      'we-are-certified.we-are-certified-images': WeAreCertifiedWeAreCertifiedImages;
+      'we-are-certified.we-are-certified': WeAreCertifiedWeAreCertified;
       'who-are-we.who-are-we-cards': WhoAreWeWhoAreWeCards;
       'who-are-we.who-are-we': WhoAreWeWhoAreWe;
       'why-choose-coditas.cards': WhyChooseCoditasCards;

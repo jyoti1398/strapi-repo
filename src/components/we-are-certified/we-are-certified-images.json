@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_we_are_certified_we_are_certified_images",
+  "info": {
+    "displayName": "weAreCertifiedImages"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
