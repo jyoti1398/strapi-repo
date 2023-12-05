@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "formSideImage": {
-      "type": "string"
-    },
     "formTitle": {
       "type": "string"
     },
@@ -26,6 +23,16 @@
       "type": "component",
       "repeatable": true,
       "component": "form.form-fields"
+    },
+    "formSideImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
