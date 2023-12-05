@@ -9,9 +9,6 @@
     "title": {
       "type": "string"
     },
-    "idValue": {
-      "type": "string"
-    },
     "data": {
       "type": "text"
     },

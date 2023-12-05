@@ -362,6 +362,214 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
+export interface ApiCaseStudyCaseStudy extends Schema.CollectionType {
+  collectionName: 'case_studies';
+  info: {
+    singularName: 'case-study';
+    pluralName: 'case-studies';
+    displayName: 'case_study';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    card_id: Attribute.String;
+    serviceName: Attribute.String;
+    tag: Attribute.String;
+    description: Attribute.Text;
+    image: Attribute.String;
+    bannerImg: Attribute.String;
+    bannerSideImg: Attribute.String;
+    outcomeImg: Attribute.String;
+    outcomeImgMobile: Attribute.String;
+    link: Attribute.String;
+    outcomeHeading: Attribute.String;
+    outcomeSubText: Attribute.Text;
+    outcomeArray: Attribute.JSON;
+    bannerTitle: Attribute.String;
+    caseStudyDecsriptiveSection: Attribute.Component<'full-case-study-page.full-case-study'>;
+    moreCaseStudyTitle: Attribute.String;
+    form: Attribute.Component<'form.side-form'>;
+    readMoreBtnText: Attribute.String;
+    breadcrumbs: Attribute.JSON;
+    pills: Attribute.JSON;
+    primary_key: Attribute.String;
+    commonSvgs: Attribute.JSON;
+    mappedSvgs: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::case-study.case-study',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::case-study.case-study',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiHeaderFooterHeaderFooter extends Schema.CollectionType {
+  collectionName: 'header_footers';
+  info: {
+    singularName: 'header-footer';
+    pluralName: 'header-footers';
+    displayName: 'header_footer';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    headerData: Attribute.Component<'header.header-component', true>;
+    copyrightText: Attribute.String;
+    companyLogo: Attribute.String;
+    footerData: Attribute.Component<'header.header-component', true>;
+    copyrightTextReservedText: Attribute.String;
+    badgeTitle: Attribute.String;
+    badgeDesc: Attribute.String;
+    badgeImage: Attribute.Media;
+    logo: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::header-footer.header-footer',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::header-footer.header-footer',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiHomePageHomePage extends Schema.CollectionType {
+  collectionName: 'home_pages';
+  info: {
+    singularName: 'home-page';
+    pluralName: 'home-pages';
+    displayName: 'HomePage';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    sectionTitle1: Attribute.String;
+    sectionTitle2: Attribute.String;
+    sectionTitle3: Attribute.String;
+    sectionTitle4: Attribute.String;
+    sectionTitle5: Attribute.String;
+    description1: Attribute.String;
+    description2: Attribute.String;
+    description3: Attribute.String;
+    description4: Attribute.String;
+    description5: Attribute.String;
+    imagesSection1: Attribute.JSON;
+    ourServicesCards: Attribute.JSON;
+    ourWorkCards: Attribute.JSON;
+    technologyImages: Attribute.JSON;
+    hiringNowCards: Attribute.JSON;
+    sectionTitle6: Attribute.String;
+    officeLocations: Attribute.JSON;
+    map: Attribute.Media;
+    serviceBtnText: Attribute.String;
+    caseStudyBtnText: Attribute.String;
+    cardBtnText: Attribute.String;
+    viewMoreBtnText: Attribute.String;
+    viewLessBtnText: Attribute.String;
+    primary_key: Attribute.UID;
+    testimony: Attribute.JSON;
+    formContents: Attribute.JSON;
+    whyChooseCoditas: Attribute.JSON;
+    cardArray1: Attribute.JSON;
+    cardArray2: Attribute.JSON;
+    cardArray3: Attribute.JSON;
+    sectionTitle7: Attribute.String;
+    description6: Attribute.String;
+    description7: Attribute.String;
+    sectionTitle8: Attribute.String;
+    description8: Attribute.String;
+    sideFormImage: Attribute.String;
+    jobDescriptionData: Attribute.JSON;
+    routes: Attribute.JSON;
+    commonSvgs: Attribute.JSON;
+    mappedSvgs: Attribute.JSON;
+    heroBannerSection: Attribute.Component<'banner.hero-banner-section'>;
+    ourServicesCardsSection: Attribute.Component<'our-service-cards.our-services-section'>;
+    digitallyTransformedSection: Attribute.Component<'digitally-transformed.digitally-transformed'>;
+    technologyImageSection: Attribute.Component<'technologies.technologies'>;
+    hiringNowSection: Attribute.Component<'hiring-now.hiring-now'>;
+    ourOfficeSection: Attribute.Component<'our-office.our-office'>;
+    form: Attribute.Component<'form.side-form'>;
+    leaderShipSection: Attribute.Component<'leadership.leadership-section'>;
+    whoAreWe: Attribute.Component<'who-are-we.who-are-we'>;
+    howWeWork: Attribute.Component<'how-we-work.how-we-work'>;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::home-page.home-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::home-page.home-page',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiMetaInfoMetaInfo extends Schema.CollectionType {
+  collectionName: 'meta_infos';
+  info: {
+    singularName: 'meta-info';
+    pluralName: 'meta-infos';
+    displayName: 'metaInfo';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    route: Attribute.String;
+    title: Attribute.String;
+    description: Attribute.Text;
+    image: Attribute.Media;
+    primary_key: Attribute.String;
+    tag: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::meta-info.meta-info',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::meta-info.meta-info',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface PluginUploadFile extends Schema.CollectionType {
   collectionName: 'files';
   info: {
@@ -676,211 +884,6 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
   };
 }
 
-export interface ApiCaseStudyCaseStudy extends Schema.CollectionType {
-  collectionName: 'case_studies';
-  info: {
-    singularName: 'case-study';
-    pluralName: 'case-studies';
-    displayName: 'case_study';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    card_id: Attribute.String;
-    serviceName: Attribute.String;
-    tag: Attribute.String;
-    description: Attribute.Text;
-    image: Attribute.String;
-    bannerImg: Attribute.String;
-    bannerSideImg: Attribute.String;
-    outcomeImg: Attribute.String;
-    outcomeImgMobile: Attribute.String;
-    link: Attribute.String;
-    outcomeHeading: Attribute.String;
-    outcomeSubText: Attribute.Text;
-    outcomeArray: Attribute.JSON;
-    bannerTitle: Attribute.String;
-    caseStudyDecsriptiveSection: Attribute.Component<'full-case-study-page.full-case-study'>;
-    moreCaseStudyTitle: Attribute.String;
-    form: Attribute.Component<'form.side-form'>;
-    readMoreBtnText: Attribute.String;
-    breadcrumbs: Attribute.JSON;
-    pills: Attribute.JSON;
-    primary_key: Attribute.String;
-    commonSvgs: Attribute.JSON;
-    mappedSvgs: Attribute.JSON;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::case-study.case-study',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::case-study.case-study',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiHeaderFooterHeaderFooter extends Schema.CollectionType {
-  collectionName: 'header_footers';
-  info: {
-    singularName: 'header-footer';
-    pluralName: 'header-footers';
-    displayName: 'header_footer';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    headerData: Attribute.Component<'header.header-component', true>;
-    copyrightText: Attribute.String;
-    companyLogo: Attribute.String;
-    footerData: Attribute.Component<'header.header-component', true>;
-    copyrightTextReservedText: Attribute.String;
-    badgeTitle: Attribute.String;
-    badgeDesc: Attribute.String;
-    badgeImage: Attribute.Media;
-    logo: Attribute.String;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::header-footer.header-footer',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::header-footer.header-footer',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiHomePageHomePage extends Schema.CollectionType {
-  collectionName: 'home_pages';
-  info: {
-    singularName: 'home-page';
-    pluralName: 'home-pages';
-    displayName: 'HomePage';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    sectionTitle1: Attribute.String;
-    sectionTitle2: Attribute.String;
-    sectionTitle3: Attribute.String;
-    sectionTitle4: Attribute.String;
-    sectionTitle5: Attribute.String;
-    description1: Attribute.String;
-    description2: Attribute.String;
-    description3: Attribute.String;
-    description4: Attribute.String;
-    description5: Attribute.String;
-    imagesSection1: Attribute.JSON;
-    ourServicesCards: Attribute.JSON;
-    ourWorkCards: Attribute.JSON;
-    technologyImages: Attribute.JSON;
-    hiringNowCards: Attribute.JSON;
-    sectionTitle6: Attribute.String;
-    officeLocations: Attribute.JSON;
-    map: Attribute.Media;
-    serviceBtnText: Attribute.String;
-    caseStudyBtnText: Attribute.String;
-    cardBtnText: Attribute.String;
-    viewMoreBtnText: Attribute.String;
-    viewLessBtnText: Attribute.String;
-    primary_key: Attribute.UID;
-    testimony: Attribute.JSON;
-    formContents: Attribute.JSON;
-    whyChooseCoditas: Attribute.JSON;
-    cardArray1: Attribute.JSON;
-    cardArray2: Attribute.JSON;
-    cardArray3: Attribute.JSON;
-    sectionTitle7: Attribute.String;
-    description6: Attribute.String;
-    description7: Attribute.String;
-    sectionTitle8: Attribute.String;
-    description8: Attribute.String;
-    sideFormImage: Attribute.String;
-    jobDescriptionData: Attribute.JSON;
-    routes: Attribute.JSON;
-    commonSvgs: Attribute.JSON;
-    mappedSvgs: Attribute.JSON;
-    heroBannerSection: Attribute.Component<'banner.hero-banner-section'>;
-    ourServicesCardsSection: Attribute.Component<'our-service-cards.our-services-section'>;
-    digitallyTransformedSection: Attribute.Component<'digitally-transformed.digitally-transformed'>;
-    technologyImageSection: Attribute.Component<'technologies.technologies'>;
-    hiringNowSection: Attribute.Component<'hiring-now.hiring-now'>;
-    ourOfficeSection: Attribute.Component<'our-office.our-office'>;
-    form: Attribute.Component<'form.side-form'>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::home-page.home-page',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::home-page.home-page',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiMetaInfoMetaInfo extends Schema.CollectionType {
-  collectionName: 'meta_infos';
-  info: {
-    singularName: 'meta-info';
-    pluralName: 'meta-infos';
-    displayName: 'metaInfo';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    route: Attribute.String;
-    title: Attribute.String;
-    description: Attribute.Text;
-    image: Attribute.Media;
-    primary_key: Attribute.String;
-    tag: Attribute.String;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::meta-info.meta-info',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::meta-info.meta-info',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -891,16 +894,16 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
+      'api::case-study.case-study': ApiCaseStudyCaseStudy;
+      'api::header-footer.header-footer': ApiHeaderFooterHeaderFooter;
+      'api::home-page.home-page': ApiHomePageHomePage;
+      'api::meta-info.meta-info': ApiMetaInfoMetaInfo;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::i18n.locale': PluginI18NLocale;
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
-      'api::case-study.case-study': ApiCaseStudyCaseStudy;
-      'api::header-footer.header-footer': ApiHeaderFooterHeaderFooter;
-      'api::home-page.home-page': ApiHomePageHomePage;
-      'api::meta-info.meta-info': ApiMetaInfoMetaInfo;
     }
   }
 }

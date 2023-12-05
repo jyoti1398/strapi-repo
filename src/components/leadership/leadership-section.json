@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_why_choose_coditas_why_choose_coditas",
+  "collectionName": "components_leadership_leadership_sections",
   "info": {
-    "displayName": "whyChooseCoditas",
-    "description": ""
+    "displayName": "leadership-section"
   },
   "options": {},
   "attributes": {
@@ -11,11 +10,11 @@
       "repeatable": false,
       "component": "heading.section-heading"
     },
-    "whyChooseCoditasCards": {
-      "displayName": "cards",
+    "leadershipCardsData": {
+      "displayName": "leadershipCards",
       "type": "component",
       "repeatable": true,
-      "component": "why-choose-coditas.cards"
+      "component": "leadership.leadership-cards"
     }
   }
 }

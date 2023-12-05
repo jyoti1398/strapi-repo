@@ -249,6 +249,34 @@ export interface HowWeWorkHowWeWork extends Schema.Component {
   };
 }
 
+export interface LeadershipLeadershipCards extends Schema.Component {
+  collectionName: 'components_leadership_leadership_cards';
+  info: {
+    displayName: 'leadershipCards';
+  };
+  attributes: {
+    imgSrc: Attribute.Media;
+    name: Attribute.String;
+    position: Attribute.String;
+    about: Attribute.Text;
+    desc: Attribute.Text;
+  };
+}
+
+export interface LeadershipLeadershipSection extends Schema.Component {
+  collectionName: 'components_leadership_leadership_sections';
+  info: {
+    displayName: 'leadership-section';
+  };
+  attributes: {
+    headerDetails: Attribute.Component<'heading.section-heading'>;
+    leadershipCardsData: Attribute.Component<
+      'leadership.leadership-cards',
+      true
+    >;
+  };
+}
+
 export interface OpenPositionsOpenPositionList extends Schema.Component {
   collectionName: 'components_open_positions_open_position_lists';
   info: {
@@ -457,6 +485,29 @@ export interface TestimonyTestimony extends Schema.Component {
   };
 }
 
+export interface WhoAreWeWhoAreWeCards extends Schema.Component {
+  collectionName: 'components_who_are_we_who_are_we_cards';
+  info: {
+    displayName: 'whoAreWeCards';
+  };
+  attributes: {
+    icon: Attribute.Media;
+    cardTitle: Attribute.String;
+    cardDescription: Attribute.Text;
+  };
+}
+
+export interface WhoAreWeWhoAreWe extends Schema.Component {
+  collectionName: 'components_who_are_we_who_are_wes';
+  info: {
+    displayName: 'whoAreWe';
+  };
+  attributes: {
+    headerDetails: Attribute.Component<'heading.section-heading'>;
+    whoAreWeCards: Attribute.Component<'who-are-we.who-are-we-cards', true>;
+  };
+}
+
 export interface WhyChooseCoditasCards extends Schema.Component {
   collectionName: 'components_why_choose_coditas_cards';
   info: {
@@ -465,7 +516,6 @@ export interface WhyChooseCoditasCards extends Schema.Component {
   };
   attributes: {
     title: Attribute.String;
-    idValue: Attribute.String;
     data: Attribute.Text;
     icon: Attribute.String;
   };
@@ -475,6 +525,7 @@ export interface WhyChooseCoditasWhyChooseCoditas extends Schema.Component {
   collectionName: 'components_why_choose_coditas_why_choose_coditas';
   info: {
     displayName: 'whyChooseCoditas';
+    description: '';
   };
   attributes: {
     headerDetails: Attribute.Component<'heading.section-heading'>;
@@ -534,6 +585,8 @@ declare module '@strapi/types' {
       'hiring-now.hiring-now': HiringNowHiringNow;
       'how-we-work.how-we-work-cards': HowWeWorkHowWeWorkCards;
       'how-we-work.how-we-work': HowWeWorkHowWeWork;
+      'leadership.leadership-cards': LeadershipLeadershipCards;
+      'leadership.leadership-section': LeadershipLeadershipSection;
       'open-positions.open-position-list': OpenPositionsOpenPositionList;
       'open-positions.open-positions': OpenPositionsOpenPositions;
       'our-clients.our-clients-images': OurClientsOurClientsImages;
@@ -549,6 +602,8 @@ declare module '@strapi/types' {
       'technologies.technology-images': TechnologiesTechnologyImages;
       'testimony.testimony-data': TestimonyTestimonyData;
       'testimony.testimony': TestimonyTestimony;
+      'who-are-we.who-are-we-cards': WhoAreWeWhoAreWeCards;
+      'who-are-we.who-are-we': WhoAreWeWhoAreWe;
       'why-choose-coditas.cards': WhyChooseCoditasCards;
       'why-choose-coditas.why-choose-coditas': WhyChooseCoditasWhyChooseCoditas;
       'why-join-coditas.why-join-coditas-cards': WhyJoinCoditasWhyJoinCoditasCards;

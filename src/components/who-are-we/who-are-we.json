@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_why_choose_coditas_why_choose_coditas",
+  "collectionName": "components_who_are_we_who_are_wes",
   "info": {
-    "displayName": "whyChooseCoditas",
-    "description": ""
+    "displayName": "whoAreWe"
   },
   "options": {},
   "attributes": {
@@ -11,11 +10,11 @@
       "repeatable": false,
       "component": "heading.section-heading"
     },
-    "whyChooseCoditasCards": {
-      "displayName": "cards",
+    "whoAreWeCards": {
+      "displayName": "whoAreWeCards",
       "type": "component",
       "repeatable": true,
-      "component": "why-choose-coditas.cards"
+      "component": "who-are-we.who-are-we-cards"
     }
   }
 }
