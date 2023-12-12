@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_no_results_found_no_results_founds",
+  "info": {
+    "displayName": "noResultsFound"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "emptyPage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_job_description_supporting_texts",
+  "info": {
+    "displayName": "supportingText"
+  },
+  "options": {},
+  "attributes": {
+    "hiringText": {
+      "type": "string"
+    },
+    "opening": {
+      "type": "string"
+    },
+    "openings": {
+      "type": "string"
+    },
+    "viewOpenings": {
+      "type": "string"
+    },
+    "search": {
+      "type": "string"
+    },
+    "applyForPosition": {
+      "type": "string"
+    },
+    "applyDirectly": {
+      "type": "string"
+    },
+    "viewDetails": {
+      "type": "string"
+    }
+  }
+}

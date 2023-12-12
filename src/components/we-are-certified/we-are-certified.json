@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_we_are_certified_we_are_certifieds",
+  "info": {
+    "displayName": "weAreCertified"
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "images": {
+      "displayName": "weAreCertifiedImages",
+      "type": "component",
+      "repeatable": true,
+      "component": "we-are-certified.we-are-certified-images"
+    }
+  }
+}

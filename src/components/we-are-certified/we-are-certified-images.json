@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_we_are_certified_we_are_certified_images",
+  "info": {
+    "displayName": "weAreCertifiedImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

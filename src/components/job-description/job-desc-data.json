@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_job_description_job_desc_data",
+  "info": {
+    "displayName": "jobDescData"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

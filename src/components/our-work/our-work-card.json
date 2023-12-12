@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_our_work_our_work_cards",
+  "info": {
+    "displayName": "ourWorkCard"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "routeTo": {
+      "type": "string"
+    },
+    "arrowSvg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

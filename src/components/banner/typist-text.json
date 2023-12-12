@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_banner_typist_texts",
+  "info": {
+    "displayName": "typistText"
+  },
+  "options": {},
+  "attributes": {
+    "digitalEngineering": {
+      "type": "string"
+    },
+    "cleanCoding": {
+      "type": "string"
+    },
+    "designThinking": {
+      "type": "string"
+    },
+    "dataScience": {
+      "type": "string"
+    },
+    "qualityTesting": {
+      "type": "string"
+    },
+    "generativeAI": {
+      "type": "string"
+    }
+  }
+}

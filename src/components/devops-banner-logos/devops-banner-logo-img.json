@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_devops_banner_logos_devops_banner_logo_imgs",
+  "info": {
+    "displayName": "devopsBannerLogoImg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "altText": {
+      "type": "string"
+    },
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

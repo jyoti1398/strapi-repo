@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_job_description_job_descriptions",
+  "info": {
+    "displayName": "jobDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jobDescriptionBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

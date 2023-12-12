@@ -6,26 +6,33 @@
   },
   "options": {},
   "attributes": {
-    "formSideImage": {
-      "type": "string"
-    },
     "formTitle": {
       "type": "string"
     },
     "formDesc": {
       "type": "string"
     },
-    "formContents": {
-      "type": "json"
-    },
-    "formFields": {
-      "type": "json"
-    },
     "formFieldData": {
       "displayName": "formFields",
       "type": "component",
       "repeatable": true,
       "component": "form.form-fields"
+    },
+    "formSideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form-contents.form-contents"
     }
   }
 }

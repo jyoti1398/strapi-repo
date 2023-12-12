@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_who_are_we_who_are_we_cards",
+  "info": {
+    "displayName": "whoAreWeCards"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardDescription": {
+      "type": "text"
+    }
+  }
+}

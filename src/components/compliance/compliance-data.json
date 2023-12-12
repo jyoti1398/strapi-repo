@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_compliance_compliance_data",
+  "info": {
+    "displayName": "complianceData"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

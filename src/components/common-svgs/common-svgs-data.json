@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_svgs_common_svgs_data",
+  "info": {
+    "displayName": "commonSvgsData"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

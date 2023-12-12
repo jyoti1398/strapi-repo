@@ -24,21 +24,6 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "type": "string"
-    },
-    "bannerImg": {
-      "type": "string"
-    },
-    "bannerSideImg": {
-      "type": "string"
-    },
-    "outcomeImg": {
-      "type": "string"
-    },
-    "outcomeImgMobile": {
-      "type": "string"
-    },
     "link": {
       "type": "string"
     },
@@ -47,9 +32,6 @@
     },
     "outcomeSubText": {
       "type": "text"
-    },
-    "outcomeArray": {
-      "type": "json"
     },
     "bannerTitle": {
       "type": "string"
@@ -70,20 +52,88 @@
     "readMoreBtnText": {
       "type": "string"
     },
-    "breadcrumbs": {
-      "type": "json"
-    },
-    "pills": {
-      "type": "json"
-    },
     "primary_key": {
       "type": "string"
     },
-    "commonSvgs": {
-      "type": "json"
+    "commonSvg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-svgs.common-svgs-data"
     },
-    "mappedSvgs": {
-      "type": "json"
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannerSideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "outcomeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "outcomeImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pillsArr": {
+      "type": "component",
+      "repeatable": true,
+      "component": "full-case-study-page.description-list"
+    },
+    "breadcrumbsArr": {
+      "type": "component",
+      "repeatable": true,
+      "component": "full-case-study-page.breadcrumbs"
+    },
+    "outcomeArr": {
+      "type": "component",
+      "repeatable": true,
+      "component": "full-case-study-page.description-list"
+    },
+    "mappedSvg": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mapped-svg.mapped-svg"
     }
   }
 }

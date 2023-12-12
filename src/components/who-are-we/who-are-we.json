@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_who_are_we_who_are_wes",
+  "info": {
+    "displayName": "whoAreWe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "whoAreWeCards": {
+      "displayName": "whoAreWeCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-are-we.who-are-we-cards"
+    },
+    "descList": {
+      "displayName": "descriptionList",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-are-we.description-list"
+    }
+  }
+}
