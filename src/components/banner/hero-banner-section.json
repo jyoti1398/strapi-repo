@@ -36,6 +36,11 @@
         "videos",
         "audios"
       ]
+    },
+    "typistText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.typist-text"
     }
   }
 }

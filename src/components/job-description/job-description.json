@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_we_are_certified_we_are_certified_images",
+  "collectionName": "components_job_description_job_descriptions",
   "info": {
-    "displayName": "weAreCertifiedImages",
+    "displayName": "jobDescription",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "badge": {
+    "jobDescriptionBanner": {
       "type": "media",
       "multiple": false,
       "required": false,

@@ -12,66 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "sectionTitle1": {
-      "type": "string"
-    },
-    "sectionTitle2": {
-      "type": "string"
-    },
-    "sectionTitle3": {
-      "type": "string"
-    },
-    "sectionTitle4": {
-      "type": "string"
-    },
-    "sectionTitle5": {
-      "type": "string"
-    },
-    "description1": {
-      "type": "string"
-    },
-    "description2": {
-      "type": "string"
-    },
-    "description3": {
-      "type": "string"
-    },
-    "description4": {
-      "type": "string"
-    },
-    "description5": {
-      "type": "string"
-    },
-    "imagesSection1": {
-      "type": "json"
-    },
-    "ourServicesCards": {
-      "type": "json"
-    },
-    "ourWorkCards": {
-      "type": "json"
-    },
-    "technologyImages": {
-      "type": "json"
-    },
-    "hiringNowCards": {
-      "type": "json"
-    },
-    "sectionTitle6": {
-      "type": "string"
-    },
-    "officeLocations": {
-      "type": "json"
-    },
-    "map": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
-    },
-    "serviceBtnText": {
-      "type": "string"
-    },
     "caseStudyBtnText": {
       "type": "string"
     },
@@ -87,123 +27,46 @@
     "primary_key": {
       "type": "uid"
     },
-    "testimony": {
-      "type": "json"
-    },
-    "formContents": {
-      "type": "json"
-    },
-    "whyChooseCoditas": {
-      "type": "json"
-    },
-    "cardArray1": {
-      "type": "json"
-    },
-    "cardArray2": {
-      "type": "json"
-    },
-    "cardArray3": {
-      "type": "json"
-    },
-    "sectionTitle7": {
-      "type": "string"
-    },
-    "description6": {
-      "type": "string"
-    },
-    "description7": {
-      "type": "string"
-    },
-    "sectionTitle8": {
-      "type": "string"
-    },
-    "description8": {
-      "type": "string"
-    },
-    "sideFormImage": {
-      "type": "string"
-    },
-    "jobDescriptionData": {
-      "type": "json"
-    },
-    "routes": {
-      "type": "json"
-    },
-    "commonSvgs": {
-      "type": "json"
-    },
-    "mappedSvgs": {
-      "type": "json"
-    },
     "heroBannerSection": {
       "type": "component",
       "repeatable": false,
       "component": "banner.hero-banner-section"
     },
-    "ourServicesCardsSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "our-service-cards.our-services-section"
-    },
-    "digitallyTransformedSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "digitally-transformed.digitally-transformed"
-    },
-    "technologyImageSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "technologies.technologies"
-    },
-    "hiringNowSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "hiring-now.hiring-now"
-    },
-    "ourOfficeSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "our-office.our-office"
-    },
-    "form": {
-      "type": "component",
-      "repeatable": false,
-      "component": "form.side-form"
-    },
-    "leaderShipSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "leadership.leadership-section"
-    },
-    "whoAreWe": {
-      "type": "component",
-      "repeatable": false,
-      "component": "who-are-we.who-are-we"
-    },
-    "howWeWork": {
-      "type": "component",
-      "repeatable": false,
-      "component": "how-we-work.how-we-work"
-    },
-    "weAreCertified": {
-      "type": "component",
-      "repeatable": false,
-      "component": "we-are-certified.we-are-certified"
-    },
-    "ourExpertise": {
-      "type": "component",
-      "repeatable": false,
-      "component": "our-expertise.our-expertise"
-    },
-    "why_choose_coditas": {
-      "type": "component",
-      "repeatable": false,
-      "component": "why-choose-coditas.why-choose-coditas"
-    },
-    "ourClients": {
-      "type": "component",
-      "repeatable": false,
-      "component": "our-clients.our-clients"
+    "pageComponents": {
+      "type": "dynamiczone",
+      "components": [
+        "challenges-we-solve.challenges-we-solve",
+        "coditas-in-media.coditas-in-media",
+        "digitally-transformed.digitally-transformed",
+        "hiring-now.hiring-now",
+        "how-we-work.how-we-work",
+        "leadership.leadership-section",
+        "open-positions.open-positions",
+        "our-clients.our-clients",
+        "our-expertise.our-expertise",
+        "our-service-cards.our-services-section",
+        "technologies.technologies",
+        "testimony.testimony",
+        "we-are-certified.we-are-certified",
+        "who-are-we.who-are-we",
+        "why-choose-coditas.why-choose-coditas",
+        "why-join-coditas.why-join-coditas",
+        "our-office.our-office",
+        "heading.section-heading",
+        "form.side-form",
+        "compliance.compliance",
+        "form-contents.form-contents",
+        "life-at-coditas.life-at-coditas",
+        "no-results-found.no-results-found",
+        "job-description.job-description",
+        "common-svgs.common-svgs",
+        "our-work.our-work",
+        "devops-banner-logos.devops-banner-logos",
+        "privacy-policy.privacy-policy-data",
+        "stepper-form.stepper-form",
+        "job-description.job-desc-page",
+        "mapped-svg.mapped-svg"
+      ]
     }
   }
 }

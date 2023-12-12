@@ -1,12 +1,15 @@
 {
-  "collectionName": "components_we_are_certified_we_are_certified_images",
+  "collectionName": "components_devops_banner_logos_devops_banner_logo_imgs",
   "info": {
-    "displayName": "weAreCertifiedImages",
+    "displayName": "devopsBannerLogoImg",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "badge": {
+    "altText": {
+      "type": "string"
+    },
+    "imgSrc": {
       "type": "media",
       "multiple": false,
       "required": false,

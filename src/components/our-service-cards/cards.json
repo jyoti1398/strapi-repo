@@ -10,7 +10,8 @@
       "type": "string"
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "default": "/"
     },
     "desc": {
       "type": "text"
@@ -22,14 +23,19 @@
       "component": "our-service-cards.modal-data"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "showBullets": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

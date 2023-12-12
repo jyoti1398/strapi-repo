@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_devops_banner_logos_devops_banner_logos",
+  "info": {
+    "displayName": "devopsBannerLogos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "devopsBannerLogos": {
+      "displayName": "devopsBannerLogoImg",
+      "type": "component",
+      "repeatable": true,
+      "component": "devops-banner-logos.devops-banner-logo-img"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_who_are_we_description_lists",
+  "info": {
+    "displayName": "descriptionList"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    }
+  }
+}

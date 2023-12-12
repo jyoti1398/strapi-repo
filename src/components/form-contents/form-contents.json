@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_form_contents_form_contents",
+  "info": {
+    "displayName": "formContents",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "submit": {
+      "type": "string",
+      "default": "Submit"
+    },
+    "captcha": {
+      "type": "string",
+      "default": "I’m not a robot"
+    },
+    "disabledCheckbox": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enabledCheckbox": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "step1": {
+      "type": "string",
+      "default": "Basic Details"
+    },
+    "step2": {
+      "type": "string",
+      "default": "Work Details"
+    },
+    "nextBtn": {
+      "type": "string",
+      "default": "Next"
+    },
+    "backBtn": {
+      "type": "string",
+      "default": "Back"
+    }
+  }
+}

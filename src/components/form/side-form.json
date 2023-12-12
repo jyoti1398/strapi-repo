@@ -12,12 +12,6 @@
     "formDesc": {
       "type": "string"
     },
-    "formContents": {
-      "type": "json"
-    },
-    "formFields": {
-      "type": "json"
-    },
     "formFieldData": {
       "displayName": "formFields",
       "type": "component",
@@ -25,14 +19,20 @@
       "component": "form.form-fields"
     },
     "formSideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form-contents.form-contents"
     }
   }
 }

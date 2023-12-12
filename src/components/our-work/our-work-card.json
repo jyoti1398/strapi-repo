@@ -1,18 +1,23 @@
 {
-  "collectionName": "components_why_choose_coditas_cards",
+  "collectionName": "components_our_work_our_work_cards",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "ourWorkCard"
   },
   "options": {},
   "attributes": {
+    "amount": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
-    "data": {
-      "type": "text"
+    "desc": {
+      "type": "string"
     },
-    "icon": {
+    "routeTo": {
+      "type": "string"
+    },
+    "arrowSvg": {
       "allowedTypes": [
         "images",
         "files",

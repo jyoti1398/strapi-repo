@@ -1,18 +1,17 @@
 {
-  "collectionName": "components_why_choose_coditas_cards",
+  "collectionName": "components_compliance_compliance_data",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "complianceData"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "data": {
+    "description": {
       "type": "text"
     },
-    "icon": {
+    "image": {
       "allowedTypes": [
         "images",
         "files",

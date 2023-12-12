@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_job_description_routes",
+  "info": {
+    "displayName": "routes"
+  },
+  "options": {},
+  "attributes": {
+    "careeers": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "openings": {
+      "type": "string"
+    },
+    "formRoute": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "string"
+    }
+  }
+}

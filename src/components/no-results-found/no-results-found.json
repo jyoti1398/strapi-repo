@@ -1,18 +1,17 @@
 {
-  "collectionName": "components_why_choose_coditas_cards",
+  "collectionName": "components_no_results_found_no_results_founds",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "noResultsFound"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "data": {
+    "desc": {
       "type": "text"
     },
-    "icon": {
+    "emptyPage": {
       "allowedTypes": [
         "images",
         "files",

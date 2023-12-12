@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mapped_svg_mapped_data_svgs",
+  "info": {
+    "displayName": "mappedDataSvg"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

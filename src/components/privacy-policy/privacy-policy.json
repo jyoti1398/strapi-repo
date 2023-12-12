@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_privacy_policy_privacy_policies",
+  "info": {
+    "displayName": "privacyPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descriptions": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy-policy.list"
+    },
+    "listItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy-policy.list"
+    }
+  }
+}
