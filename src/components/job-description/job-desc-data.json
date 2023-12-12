@@ -1,18 +1,17 @@
 {
-  "collectionName": "components_why_choose_coditas_cards",
+  "collectionName": "components_job_description_job_desc_data",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "jobDescData"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "key": {
       "type": "string"
     },
-    "data": {
-      "type": "text"
+    "value": {
+      "type": "string"
     },
-    "icon": {
+    "img": {
       "allowedTypes": [
         "images",
         "files",

@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_our_clients_our_clients_images",
+  "collectionName": "components_life_at_coditas_life_at_coditas",
   "info": {
-    "displayName": "ourClientsImages",
+    "displayName": "lifeAtCoditas",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "customLogoClass": {
+    "title": {
       "type": "string"
     },
-    "imageSrc": {
+    "coverImg": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -19,6 +19,12 @@
         "videos",
         "audios"
       ]
+    },
+    "descList": {
+      "displayName": "descList",
+      "type": "component",
+      "repeatable": true,
+      "component": "life-at-coditas.desc-list"
     }
   }
 }

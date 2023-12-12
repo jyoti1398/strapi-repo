@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_job_description_breadcrumb_labels",
+  "info": {
+    "displayName": "breadcrumbLabels"
+  },
+  "options": {},
+  "attributes": {
+    "careers": {
+      "type": "string"
+    },
+    "openPosition": {
+      "type": "string"
+    },
+    "bussinessFunc": {
+      "type": "string"
+    }
+  }
+}

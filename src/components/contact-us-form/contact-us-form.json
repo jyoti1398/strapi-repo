@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_contact_us_form_contact_us_forms",
+  "info": {
+    "displayName": "contactUsForm"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "namePlaceholder": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "mobilePlaceholder": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "enquiry": {
+      "type": "string"
+    },
+    "enquiryPlaceholder": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "messageplaceholder": {
+      "type": "string"
+    }
+  }
+}

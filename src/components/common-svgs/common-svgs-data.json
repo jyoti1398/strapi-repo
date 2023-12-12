@@ -1,18 +1,14 @@
 {
-  "collectionName": "components_why_choose_coditas_cards",
+  "collectionName": "components_common_svgs_common_svgs_data",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "commonSvgsData"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "label": {
       "type": "string"
     },
-    "data": {
-      "type": "text"
-    },
-    "icon": {
+    "value": {
       "allowedTypes": [
         "images",
         "files",

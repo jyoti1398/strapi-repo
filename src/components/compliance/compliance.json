@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_compliance_compliances",
+  "info": {
+    "displayName": "compliance"
+  },
+  "options": {},
+  "attributes": {
+    "headerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.section-heading"
+    },
+    "compliance": {
+      "displayName": "complianceData",
+      "type": "component",
+      "repeatable": true,
+      "component": "compliance.compliance-data"
+    }
+  }
+}

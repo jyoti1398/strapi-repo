@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_our_clients_our_clients_images",
+  "collectionName": "components_devops_banner_logos_devops_banner_logo_imgs",
   "info": {
-    "displayName": "ourClientsImages",
+    "displayName": "devopsBannerLogoImg",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "customLogoClass": {
+    "altText": {
       "type": "string"
     },
-    "imageSrc": {
+    "imgSrc": {
       "type": "media",
       "multiple": false,
       "required": false,

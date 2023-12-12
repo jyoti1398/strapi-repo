@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_job_description_job_desc_pages",
+  "info": {
+    "displayName": "jobDescPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jobDescriptionLabels": {
+      "displayName": "jobDescriptionLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "job-description.job-description-labels"
+    },
+    "jobDescriptionIcons": {
+      "displayName": "jobDescriptionIcons",
+      "type": "component",
+      "repeatable": false,
+      "component": "job-description.job-description-icons"
+    },
+    "breadcrumbLabels": {
+      "displayName": "breadcrumbLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "job-description.breadcrumb-labels"
+    },
+    "routes": {
+      "displayName": "routes",
+      "type": "component",
+      "repeatable": false,
+      "component": "job-description.routes"
+    },
+    "supportingText": {
+      "displayName": "supportingText",
+      "type": "component",
+      "repeatable": false,
+      "component": "job-description.supporting-text"
+    }
+  }
+}

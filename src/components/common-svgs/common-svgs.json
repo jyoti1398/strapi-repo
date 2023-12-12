@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_svgs_common_svgs",
+  "info": {
+    "displayName": "commonSvgs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "svgs": {
+      "displayName": "commonSvgsData",
+      "type": "component",
+      "repeatable": true,
+      "component": "common-svgs.common-svgs-data"
+    }
+  }
+}

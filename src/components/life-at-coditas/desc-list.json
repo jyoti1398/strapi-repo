@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_life_at_coditas_desc_lists",
+  "info": {
+    "displayName": "descList"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_our_clients_our_clients_images",
+  "collectionName": "components_job_description_job_descriptions",
   "info": {
-    "displayName": "ourClientsImages",
+    "displayName": "jobDescription",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "customLogoClass": {
-      "type": "string"
-    },
-    "imageSrc": {
+    "jobDescriptionBanner": {
       "type": "media",
       "multiple": false,
       "required": false,

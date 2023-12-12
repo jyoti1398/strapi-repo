@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_why_join_coditas_desc_lists",
+  "info": {
+    "displayName": "descList"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    }
+  }
+}

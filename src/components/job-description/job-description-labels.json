@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_job_description_job_description_labels",
+  "info": {
+    "displayName": "jobDescriptionLabels"
+  },
+  "options": {},
+  "attributes": {
+    "jDContainerTitle": {
+      "type": "string"
+    },
+    "rolesAndResponsibilitiesTitle": {
+      "type": "string"
+    },
+    "minExperienceTitle": {
+      "type": "string"
+    },
+    "technicalSkillsTitle": {
+      "type": "string"
+    },
+    "youShouldHaveTitle": {
+      "type": "string"
+    },
+    "locationTitle": {
+      "type": "string"
+    },
+    "jobTypeTitle": {
+      "type": "string"
+    },
+    "departmentTitle": {
+      "type": "string"
+    },
+    "applyNow": {
+      "type": "string"
+    }
+  }
+}

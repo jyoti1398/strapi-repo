@@ -6,11 +6,9 @@
   },
   "options": {},
   "attributes": {
-    "idValue": {
-      "type": "string"
-    },
     "tag": {
-      "type": "string"
+      "type": "string",
+      "default": "null"
     },
     "description": {
       "type": "text"
@@ -19,14 +17,23 @@
       "type": "string"
     },
     "linkText": {
-      "type": "string"
+      "type": "string",
+      "default": "Read now"
     },
     "isExternalLink": {
       "type": "boolean",
       "default": true
     },
     "image": {
-      "type": "string"
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

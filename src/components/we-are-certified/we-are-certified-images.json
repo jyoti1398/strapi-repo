@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_our_clients_our_clients_images",
+  "collectionName": "components_we_are_certified_we_are_certified_images",
   "info": {
-    "displayName": "ourClientsImages",
+    "displayName": "weAreCertifiedImages",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "customLogoClass": {
-      "type": "string"
-    },
-    "imageSrc": {
+    "badge": {
       "type": "media",
       "multiple": false,
       "required": false,

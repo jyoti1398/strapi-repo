@@ -12,18 +12,22 @@
     "desc": {
       "type": "text"
     },
-    "descList": {
-      "type": "json"
+    "descLists": {
+      "displayName": "descList",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-join-coditas.desc-list"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

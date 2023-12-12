@@ -64,6 +64,24 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "samplle": {
+      "type": "dynamiczone",
+      "components": [
+        "banner.hero-banner-section",
+        "challenges-we-solve.challenges-we-solve-cards",
+        "challenges-we-solve.challenges-we-solve",
+        "coditas-in-media.coditas-in-media-cards",
+        "coditas-in-media.coditas-in-media",
+        "digitally-transformed.digitally-transformed-images",
+        "digitally-transformed.digitally-transformed",
+        "form.form-fields",
+        "form.side-form",
+        "full-case-study-page.full-case-study",
+        "header.header-component",
+        "header.header",
+        "heading.section-heading"
+      ]
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mapped_svg_mapped_svgs",
+  "info": {
+    "displayName": "mappedSvg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mappedData": {
+      "displayName": "mappedDataSvg",
+      "type": "component",
+      "repeatable": true,
+      "component": "mapped-svg.mapped-data-svg"
+    }
+  }
+}

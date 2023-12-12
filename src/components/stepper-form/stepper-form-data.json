@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_stepper_form_stepper_form_data",
+  "info": {
+    "displayName": "stepperFormData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "text"
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

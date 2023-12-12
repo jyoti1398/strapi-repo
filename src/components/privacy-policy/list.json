@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_privacy_policy_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    }
+  }
+}
