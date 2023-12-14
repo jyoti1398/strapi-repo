@@ -513,7 +513,9 @@ export interface ApiHomePageHomePage extends Schema.CollectionType {
         'privacy-policy.privacy-policy-data',
         'stepper-form.stepper-form',
         'job-description.job-desc-page',
-        'mapped-svg.mapped-svg'
+        'mapped-svg.mapped-svg',
+        'job-description.supporting-text',
+        'tabs.tabs'
       ]
     >;
     createdAt: Attribute.DateTime;
