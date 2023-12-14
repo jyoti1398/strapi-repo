@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tabs_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "allTab": {
+      "type": "string"
+    },
+    "dataScienceTab": {
+      "type": "string"
+    },
+    "devOpsTab": {
+      "type": "string"
+    },
+    "healthcareTabs": {
+      "type": "string"
+    }
+  }
+}

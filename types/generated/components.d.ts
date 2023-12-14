@@ -836,6 +836,19 @@ export interface StepperFormStepperForm extends Schema.Component {
   };
 }
 
+export interface TabsTabs extends Schema.Component {
+  collectionName: 'components_tabs_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    allTab: Attribute.String;
+    dataScienceTab: Attribute.String;
+    devOpsTab: Attribute.String;
+    healthcareTabs: Attribute.String;
+  };
+}
+
 export interface TechnologiesTechnologies extends Schema.Component {
   collectionName: 'components_technologies_technologies';
   info: {
@@ -1088,6 +1101,7 @@ declare module '@strapi/types' {
       'privacy-policy.privacy-policy': PrivacyPolicyPrivacyPolicy;
       'stepper-form.stepper-form-data': StepperFormStepperFormData;
       'stepper-form.stepper-form': StepperFormStepperForm;
+      'tabs.tabs': TabsTabs;
       'technologies.technologies': TechnologiesTechnologies;
       'technologies.technology-images': TechnologiesTechnologyImages;
       'testimony.testimony-data': TestimonyTestimonyData;
