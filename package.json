@@ -10,10 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.14.4",
+    "@strapi/plugin-i18n": "^4.14.4",
     "@strapi/plugin-users-permissions": "4.14.4",
-    "@strapi/strapi": "4.14.4",
-    "better-sqlite3": "8.6.0",
+    "@strapi/strapi": "^4.14.4",
+    "better-sqlite3": "^9.2.2",
+    "pg": "^8.11.3",
+    "serverless-http": "^3.2.0",
     "strapi-plugin-populate-deep": "^3.0.0"
   },
   "author": {
@@ -26,5 +28,8 @@
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^13.3.2"
+  }
 }
