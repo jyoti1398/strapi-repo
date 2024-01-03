@@ -9,6 +9,7 @@ COPY . .
 
 # Install Node.js dependencies
 RUN npm install
+RUN npm i better-sqlite3
 
 # Run the yarn develop command (modify if needed)
 RUN yarn develop
