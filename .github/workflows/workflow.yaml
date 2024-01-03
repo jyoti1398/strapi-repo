@@ -1,12 +1,10 @@
 name: Build and Deploy BU Backend
+
 on:
-    workflow_dispatch:
-        inputs:
-            folder:
-                type: choice
-                description: select folder
-                options:
-                    - 'main'
+  push:
+    branches:
+      - devops
+   
 
 jobs:
     build-and-push:
