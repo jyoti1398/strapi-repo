@@ -30,7 +30,6 @@ jobs:
             ECR_REGISTRY: 240633844458.dkr.ecr.ap-south-1.amazonaws.com
             ECR_REPOSITORY: bu-serverless-dev
             FUNCTION_NAME: bu-serverless-dev
-          if: ${{ github.event.inputs.folder == 'main' }}
           run: |
             aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin $ECR_REGISTRY
             docker build -t $ECR_REPOSITORY .
