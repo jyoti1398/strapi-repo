@@ -29,13 +29,13 @@
 
 # # Define the command to run your Lambda function
 # CMD ["./src/app.strapiHandler"]
-
-
 FROM public.ecr.aws/lambda/nodejs:18
 
 WORKDIR /app
 
 COPY package.json yarn.lock ./
+
+RUN ldd --version
 
 # Install Node.js dependencies
 RUN npm install
