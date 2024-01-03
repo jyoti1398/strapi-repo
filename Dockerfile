@@ -1,11 +1,15 @@
-# Switch to the Node.js Lambda runtime image
-FROM public.ecr.aws/lambda/nodejs:18 as builder
-
+FROM ubuntu:20.04
 # Set the working directory in the builder image
 WORKDIR /app
 
 # Copy the entire application code
 COPY . .
+
+RUN apt-get update && \
+    apt-get install -y build-essential && \
+    apt-get install -y nodejs npm python3
+
+ENV PYTHON /usr/bin/python3
 
 # Install Node.js dependencies
 RUN npm install
