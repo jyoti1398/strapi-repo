@@ -3,8 +3,7 @@ WORKDIR /app
 COPY . .
 RUN ls 
 # Install Python
-RUN apt update && apt-get install -y python3
-
+RUN npm i -y python3 
 # Set the PYTHON environment variable
 ENV PYTHON /usr/bin/python3
 
