@@ -1,0 +1,40 @@
+name: Build and Deploy BU Backend
+
+on:
+  push:
+    branches:
+      - devops
+   
+
+jobs:
+    build-and-push:
+        permissions:
+          id-token: write
+          contents: read
+        name: Build
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v3
+
+        - name: Configure AWS credentials from AWS account
+          uses: aws-actions/configure-aws-credentials@v3
+          with:
+            role-to-assume: arn:aws:iam::240633844458:role/GithubBURole
+            aws-region: ap-south-1
+            role-session-name: github-actions-session
+
+        - name: Build and Deploy BU Container Image To bu-serverless-dev
+          env:
+            ECR_REGISTRY: 240633844458.dkr.ecr.ap-south-1.amazonaws.com
+            ECR_REPOSITORY: bu-serverless-dev
+            FUNCTION_NAME: bu-serverless-dev
+          run: |
+            aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin $ECR_REGISTRY
+            docker build -t $ECR_REPOSITORY .
+            docker tag $ECR_REPOSITORY:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
+            docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+            aws lambda update-function-code --function-name $FUNCTION_NAME --image-uri $ECR_REGISTRY/$ECR_REPOSITORY:latest
+
+        
