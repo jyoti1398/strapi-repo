@@ -1,38 +1,24 @@
-# FROM amazon/aws-lambda-nodejs:18
-# WORKDIR /app
-# RUN npm i python3
-# COPY . .
-# RUN ldd --version
-# # RUN npm install sqlite3
-# RUN npm install --build-from-resource
-# RUN chmod -R 755 /var/task
-# CMD [ "/app/src/app.strapiHandler" ]
+# Builder stage
+FROM amazon/aws-lambda-nodejs:18 AS builder
 
-# First stage: Build dependencies with a base image that includes GLIBC
-# FROM balenalib/amd64-ubuntu:bionic AS builder
-
-# WORKDIR /app
-# COPY package*.json yarn.lock ./
-# RUN ldd --version
-# RUN apt-get update && apt-get install -y nodejs
-# RUN npm install
-# COPY . .
-# RUN npm i python3
-# RUN npm install
-
-# Second stage: Use a Node.js 18 base image
-FROM amazon/aws-lambda-nodejs:18
 WORKDIR /app
 COPY package*.json yarn.lock ./
-RUN ldd --version
-RUN apt-get update && apt-get install -y nodejs
-RUN npm install
-COPY . .
-RUN npm i python3
 RUN npm install
 
+# Main stage
+FROM amazon/aws-lambda-nodejs:18
+
 WORKDIR /app
-COPY --from=builder /app .
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY package*.json yarn.lock ./
+
+# No need to run npm install here
+
+COPY . .
+
+# Your additional commands
+RUN npm i python3
 
 # Provide the handler script
 COPY src/app.strapiHandler .
