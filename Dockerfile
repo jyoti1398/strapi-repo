@@ -6,7 +6,7 @@ COPY package*.json yarn.lock ./
 RUN npm install
 
 # Main stage
-FROM amazon/aws-lambda-nodejs:18
+FROM amazon/aws-lambda-nodejs:18 
 
 WORKDIR /app
 
@@ -19,9 +19,8 @@ COPY . .
 
 # Your additional commands
 RUN npm i python3
+RUN yarn develop
 
-# Provide the handler script
-COPY src/app.strapiHandler .
 
 # Command to run the application
-CMD [ "yarn", "develop" ]
+CMD [ "src/app.strapiHandler" ]
