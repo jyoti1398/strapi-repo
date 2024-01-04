@@ -3,6 +3,7 @@ FROM amazon/aws-lambda-nodejs:18 AS builder
 
 WORKDIR /app
 COPY package*.json yarn.lock ./
+RUN ldd --version
 RUN npm install
 
 # Main stage
