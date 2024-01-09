@@ -1,0 +1,11 @@
+LOAD DATABASE
+     FROM sqlite://data.db
+     INTO postgresql://postgres:password@localhost:5432/bu_strapi
+
+ WITH include no drop, create tables, create indexes, reset sequences,
+      data only
+
+   SET work_mem to '16MB',
+       maintenance_work_mem to '512 MB';
+
+ALTER SCHEMA 'main' RENAME TO 'public';
